@@ -118,22 +118,22 @@ option on older/slower systems to take a time penalty up front and save cycles a
 
 ## Our Contributors
 #### Thanks to
-- ➤ **Chris Allegretta** <chrisa@asty.org> for writing cmatrix up in a fortnight and giving us
+- **Chris Allegretta** <chrisa@asty.org> for writing cmatrix up in a fortnight and giving us
   the responsibility to further improve it.
-- ➤ **Krisjon Hanson** and **Bjoern Ganslandt** for helping with bold support and
+- **Krisjon Hanson** and **Bjoern Ganslandt** for helping with bold support and
   Bjoern again for the cursor removal code, helping with the `-u` and `-l`
   modes/flags, and Makefile improvements.
-- ➤ **Adam Gurno** for multi-color support.
-- ➤ **Garrick West** for debian consolefont dir support.
-- ➤ **Nemo** for design thoughts and continuous help and support.
-- ➤ **John Donahue** for helping with transparent term support
-- ➤ **Ben Esacove** for Redhat 6 compatibility w/matrix.psf.gz
-- ➤ **jwz** for the xmatrix module to xscreensaver at http://www.jwz.org/xscreensaver.
-- ➤ **Sumit Kumar Soni** for beautifying the README.
+- **Adam Gurno** for multi-color support.
+- **Garrick West** for debian consolefont dir support.
+- **Nemo** for design thoughts and continuous help and support.
+- **John Donahue** for helping with transparent term support
+- **Ben Esacove** for Redhat 6 compatibility w/matrix.psf.gz
+- **jwz** for the xmatrix module to xscreensaver at http://www.jwz.org/xscreensaver.
+- **Sumit Kumar Soni** for beautifying the README.
 - The makers of the Matrix for one kickass movie!
-- ➤ Everyone who has sent (and who will send) us mails regarding
+- Everyone who has sent (and who will send) us mails regarding
   bugs, comments, patches or just a simple hello.
-- ➤ Everyone who has contributed to the project by opening issues and PRs on the github repository.
+- Everyone who has contributed to the project by opening issues and PRs on the github repository.
 
 ## Contribution Guide
 If you have any suggestions/flames/patches to send, please feel free to:
