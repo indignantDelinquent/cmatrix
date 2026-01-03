@@ -26,7 +26,9 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <string.h>
+#ifdef HAVE_STDINT_H
 #include <stdint.h>
+#endif /* HAVE_STDINT_H */
 #include <time.h>
 #include <sys/types.h>
 #include <sys/stat.h>
