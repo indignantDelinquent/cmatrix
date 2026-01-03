@@ -855,18 +855,29 @@ int main(int argc, char *argv[])
 				/* draw head. */
 				if(matrix[i][j] == MTX_HEAD)
 				{
+					short c;
 					/* attrs. */
 					attron(COLOR_PAIR(COLOR_WHITE));
 					if(flags & MTX_FLAG_BOLD)
 						attron(A_BOLD);
+
+					/* get character. */
+					if(matrix[i][j] & MTX_FLAG_PAUSE)
+					{
+						/* kind of a hack, but needed to reduce load. */
+						c = ((i+j) % (randmax - randmin)) + randmin;
+					}
+					else
+						c = rand_char();
+
 #ifdef HAVE_NCURSESW_NCURSES_H
 					if(flags & MTX_FLAG_UNICODE)
-						addstr(chars_array[rand_char()]);
+						addstr(chars_array[c]);
 					else if(flags & (MTX_FLAG_LINUX | MTX_FLAG_XWINDOW))
-						addch_utf8_altcharset(rand_char());
+						addch_utf8_altcharset(c);
 					else
 #endif
-						addch(rand_char());
+						addch(c);
 
 
 					attroff(COLOR_PAIR(COLOR_WHITE));
