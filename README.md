@@ -94,10 +94,27 @@ cmatrix -ba -u 2 -C red
 
 For more options and **help** run `cmatrix -h` <br>OR<br> Read the Manual Page by running command `man cmatrix`
 
-_To get the program to look most like the movie, use `cmatrix -ba`_
+_To get the program to look most like the movie, use `cmatrix -abc`_
 
 > _Note: cmatrix is probably not particularly portable or efficient. Use the -p
 option on older/slower systems to take a time penalty up front and save cycles as it runs.
+
+## On the fly changes
+You can use the following keystrokes to change CMatrix on the fly:
+
+Key | Function
+----|--------------------------------
+0-9 | Adjust update speed
+a   | Toggle asynchronous scroll
+b   | Random bold characters
+B   | All bold characters
+k   | Toggle random character changes
+m   | Toggle lambda mode
+n   | Turn off bold characters
+o   | Old-style scrolling
+p   | Pause scrolling
+q   | Quit the program
+r   | Toggle rainbow mode
 
 ## Captures
 
